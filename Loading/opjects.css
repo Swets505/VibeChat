@@ -1,0 +1,59 @@
+.loading_opject1    {background: #ffffff;
+                    width: 120px;
+                    height: 120px;
+                    display: inline-block;
+                    margin: 5px;
+                    animation-name: loading_obj1;
+                    animation-delay: 0s;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    border-radius: 50%;
+}
+
+.loading_opject2    {background: #ffffff;
+                    width: 120px;
+                    height: 120px;
+                    display: inline-block;
+                    margin: 5px;
+                    animation-name: loading_obj2;
+                    animation-delay: 0s;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    border-radius: 50%;
+}
+
+.loading_opject3    {background: #ffffff;
+                    width: 120px;
+                    height: 120px;
+                    display: inline-block;
+                    margin: 5px;
+                    animation-name: loading_obj3;
+                    animation-delay: 0s;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    border-radius: 50%;
+}
+
+.loading_opject4    {background: #ffffff;
+                    width: 120px;
+                    height: 120px;
+                    display: inline-block;
+                    margin: 5px;
+                    animation-name: loading_obj4;
+                    animation-delay: 0s;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    border-radius: 50%;
+}
+
+.loading_opject5    {background: #ffffff;
+                    width: 120px;
+                    height: 120px;
+                    display: inline-block;
+                    margin: 5px;
+                    animation-name: loading_obj5;
+                    animation-delay: 0s;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+@keyframes  loading_obj1 {
+    10%{translate: 0px -150px;}
+    20%{translate: -170px 0px;}
+    30%{translate: 0px 150px;}
+    40%{translate: 40px 0px;border-top-left-radius: 30px;border-bottom-left-radius: 30px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;}
+}
+
+@keyframes  loading_obj2 {
+    10%{translate: 0px -150px;}
+    20%{translate: -110px 0px;}
+    30%{translate: 0px 150px;}
+    40%{translate: 20px 0px;border-radius: 0px;}
+}
+
+@keyframes  loading_obj3 {
+    10%{translate: 0px -150px;}
+    20%{translate: 0px 0px;}
+    30%{translate: 0px 150px;}
+    40%{translate: 0px 0px;border-radius: 0px;}
+}
+
+@keyframes  loading_obj4 {
+    10%{translate: 0px -150px;}
+    20%{translate: 110px 0px;}
+    30%{translate: 0px 150px;}
+    40%{translate: -20px 0px;border-radius: 0px;}
+}
+
+@keyframes  loading_obj5 {
+    10%{translate: 0px -150px;}
+    20%{translate: 170px 0px;}
+    30%{translate: 0px 150px;}
+    40%{translate: -40px 0px;border-top-right-radius: 30px;border-bottom-right-radius: 30px;border-top-left-radius: 0px;border-bottom-left-radius: 0px;}
+}
+
+@keyframes loading_drop {
+    form{translate: 0px 0px;}
+    to{translate: 0px 200px;opacity: 0;}
+}

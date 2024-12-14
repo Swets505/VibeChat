@@ -1,0 +1,16 @@
+body,html  {width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0px;
+}
+
+.bg {background: #343434;
+    animation-name: setnewbg;
+    animation-delay: 5.4s;
+    animation-duration: 0.7s;
+}
+
+@keyframes setnewbg {
+    from{background: #343434;}
+    to{background: #121212;}
+}

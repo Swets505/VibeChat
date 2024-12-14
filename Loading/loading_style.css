@@ -1,0 +1,7 @@
+.loading_aria   {translate: 0px 240px;
+}
+
+.loading_aria_box   {animation-duration: 0.8s;
+                    animation-name: loading_drop;
+                    animation-delay: 5.4s;
+}

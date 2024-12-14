@@ -1,0 +1,151 @@
+.startup_box_left   {background: #00ffff76;
+                    box-shadow: 0 -25px 30px #00ffff99;
+                    transition: 1.9s;
+                    display: none;
+                    float: left;
+                    width: 420px;
+                    height: 1200px;
+                    animation-name: startup_box_leftin;
+                    animation-duration: 1.6s;
+}
+
+.startup_box_left:hover {width: 460px;
+                        transition: 1.2s;
+                        box-shadow: 0 -25px 36px #00ffff99;
+}
+
+@keyframes  startup_box_leftin  {
+    from{translate:-120px 0px;opacity: 0;}
+    to{translate: 0px 0px;opacity: 1;}
+}
+
+
+
+.startup_box_right  {background: #ffffff80;
+                    box-shadow: 0 -25px 30px #ffffff99;
+                    transition: 1.9s;
+                    display: none;
+                    float: right;
+                    width: 420px;
+                    height: 1200px;
+                    animation-name: startup_box_rightin;
+                    animation-duration: 1.6s;
+}
+
+.startup_box_right:hover {width: 460px;
+                         transition: 1.2s;
+                         box-shadow: 0 -25px 36px #ffffff99;
+}
+
+@keyframes  startup_box_rightin  {
+    from{translate: 120px 0px;opacity: 0;}
+    to{translate: 0px 0px;opacity: 1;}
+}
+
+form p    {
+    margin: 30px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form h3    {
+    margin: 30px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form label    {
+    margin-top: 30px;
+    margin-left: 37px;
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 1.6s;
+}
+
+form    {
+    margin: 0px;
+    color: #fff;
+}
+
+.startup_box_right:hover label  {
+    margin-left: 60px;
+    transition-duration: 1.2s;
+}
+
+.startup_box_left:hover label  {
+    margin-left: 60px;
+    transition-duration: 1.2s;
+}
+
+.login-main-title   {
+    margin-top: 40px;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.login-main-title   {
+    margin-top: 40px;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    animation-name: startup_title_in;
+    animation-duration: 2.6s;
+    display: none;
+    outline: 5px solid #232323;
+    width: 600px;
+    background: #191919;
+    border-radius: 19px;
+}
+
+@keyframes  startup_title_in  {
+    from{translate: 0px 80px;opacity: 0;}
+    to{translate: 0px 0px;opacity: 1;}
+}
+
+#startup_extra_main {
+    margin-top: 70px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    animation-name: startup_extra_in;
+    animation-duration: 3s;
+    display: none;
+    outline: 5px solid #232323;
+    padding: 10px 30px;
+    width: 540px;
+    background: #191919;
+    border-radius: 19px;
+    transition-duration: 1.9s;
+    transition-delay: 0.7s;
+}
+
+#startup_extra_main:hover   {
+    width: 640px;
+    scale: 1.2;
+    transition-duration: 1.8s;
+    transition-delay: 1s;
+    border-radius: 10px;
+    background: #101010;
+    outline: 5px solid #fff;
+    box-shadow: inset 0 0 12px #fff;
+    margin-top: 120px;
+}
+
+#startup_extra_main h3  {
+    transition-duration: 2s;
+    transition-delay: 0.7s;
+}
+
+#startup_extra_main:hover h3  {
+    font-size: 24px;
+    transition-duration: 2s;
+    transition-delay: 0.9s;
+}
+
+@keyframes  startup_extra_in  {
+    from{translate: 0px 80px;opacity: 0;}
+    to{translate: 0px 0px;opacity: 1;}
+}
